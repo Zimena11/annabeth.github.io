@@ -125,13 +125,12 @@ img{
 }
 /*scroll-bar*/
 ::-webkit-scrollbar {
-      width: 15px;
+      width: 10px;
       background: #dbe8ec;
 }
 ::-webkit-scrollbar-button{
     width:8px;
     height: 5px;
-    background-color: navy;
 }
 ::-webkit-scrollbar-corner {
       background-color: black;
