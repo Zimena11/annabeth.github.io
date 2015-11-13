@@ -131,6 +131,10 @@ img{
 ::-webkit-scrollbar-button{
     width:8px;
     height: 5px;
+    background-color: navy;
+}
+::-webkit-scrollbar-corner {
+      background-color: black;
 }
 ::-webkit-scrollbar-track {
     background:#3c454e;
