@@ -80,6 +80,7 @@ img{
   list-style: none;
   display: inline-block;
   padding: 0 20px 25px;
+  width: 25%;
 }
 .list-favourites img{
   border-radius: 100%;
