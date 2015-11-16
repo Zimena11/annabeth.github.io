@@ -93,11 +93,11 @@ img{
   font-size: 18px;
   font-family: Garamond, serif;
   font-weight: bold;
-}
+}/*
 .favourite-scroll{
   height: 350px;
-  overflow-y: scroll; /*scroll vertical*/
-}
+  overflow-y: scroll; }scroll vertical*/
+
 /*****Contacto*****/
 .contacto{
   height: 350px;
@@ -106,9 +106,10 @@ img{
   padding-top: 50px;
 }
 .social-section{
-  height: 240px;
   padding: 0 150px;
-  overflow-y: scroll; /*scroll vertical*/
+  /*height: 240px;
+
+  overflow-y: scroll; scroll vertical*/
 }
 .list-contact{
   margin-top: 25px;
@@ -124,7 +125,7 @@ img{
   border-radius: 100%;
 }
 /*scroll-bar*/
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
       width: 10px;
       background: #dbe8ec;
 }
@@ -154,8 +155,9 @@ img{
 }
 ::-webkit-scrollbar-thumb:hover{
   background: -webkit-linear-gradient(top, #4ca06d, #5aafb0);
-}
-/* Pseudo-clase */
+}*/
+/* Pseudo-clase
 ::-webkit-scrollbar-thumb:window-inactive {
   background: rgba(77,161,112,.6);
 }
+*/
