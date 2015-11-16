@@ -100,7 +100,7 @@ img{
 
 /*****Contacto*****/
 .contacto{
-  height: 350px;
+  height: auto;
   border: 1px solid #ddd;
   background: url(../img/tile2.png) center center;
   padding-top: 50px;
