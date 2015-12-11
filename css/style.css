@@ -86,6 +86,8 @@ img{
   border-radius: 100%;
   border: 1px solid #CCC;
   padding: 5px;
+    height: auto;
+    max-width: 80%;
 }
 .list-favourites p{
   margin-top: 15px;
@@ -120,6 +122,7 @@ img{
   width: 33%;
 }
 .list-contact img{
-  height: 200px;
+  height: auto;
   border-radius: 100%;
+  max-width: 50%;
 }
