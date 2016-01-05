@@ -1,16 +1,18 @@
 /* estilos comunes */
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:700|Libre+Baskerville:400,700|Josefin+Sans:400,700);
+
 html,body{
   height: 100%;
 }
 body{
   color:#555;
-  font-family: Arial,sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 13px;
 }
 
 h1,h2,h3,h4{
   color:#a9268d;
-  font-family:"Oswald",Arial,sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 img{
@@ -45,16 +47,24 @@ img{
 }
 
 .header-content{
-  background: url('https://a1.muscache.com/locations/uploads/city/hero/63/0_4000_478_2558_hero_Seoul_Samcheongdong_ManchulKim__003_edit.jpg') center center no-repeat;
-  background-size: cover;
   color: #FFF;
-  padding: 100px 0;
+
   text-align: center;
+  background: url('../img/hero1.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+ -o-background-size: cover;
+  background-size: cover;
+
+}
+.opacity-bg{
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .header-content h1{
-  color: #FFF;
-  text-shadow: 4px 6px 6px rgb(73, 127, 228);
+  color: #e6dede;
+  text-shadow: 4px 6px 6px #1f0a0a;
 }
 
 /****About-me****/
