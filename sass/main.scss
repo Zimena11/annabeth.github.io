@@ -22,6 +22,9 @@ img{
   overflow: hidden;*/
   transition: all 1s;
 }
+ul li{
+    list-style: none;
+}
 /*****Header******/
 @import 'header';
 
