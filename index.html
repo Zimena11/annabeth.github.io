@@ -14,9 +14,9 @@
   <div class="jumbotron header">
     <div class="main-menu">
       <ul class="list-nav">
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">FAVOURITES</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
 
     </div>
@@ -30,7 +30,7 @@
   </div><!--end Header-->
 
   <!--    ABOUT ME   -->
-  <div class="about-me">
+  <div class="about-me" id="about">
     <div class="container">
       <h3 class="text-center">About me</h3>
       <p class="biografia text-justify">
@@ -54,42 +54,43 @@
     </div>
   </div><!--end about-me-->
 
-  <!--   FAVOURITES  -->
-  <div class="favourite text-center">
+  <!--======PORTFOLIO=====-->
+  <div id="portfolio">
+      <div class="container">
+          <div class="slider">
+              <ul class="list-portfolio">
+                  <li>
+                     <a href="portfolio.html">
+                      <img src="img/portfolio/primes.png" alt="">
+                     </a>
+                  </li>
+                  <li>
+                     <a href="portfolio.html">
+                      <img src="img/portfolio/gentleman.png" alt="">
+                     </a>
+                  </li>
+                  <li>
+                     <a href="portfolio.html">
+                      <img src="img/portfolio/dashy.png" alt="">
+                     </a>
+                  </li>
+                  <li>
+                     <a href="portfolio.html">
+                      <img src="img/portfolio/freelance.png" alt="">
+                     </a>
+                  </li>
+                  <li>
+                     <a href="portfolio.html">
+                      <img src="img/portfolio/flat-theme.png" alt="">
+                     </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
 
-      <h3>My Favorites Things</h3>
-      <h4>Here are a few things I really love</h4>
-
-      <div class="favourite-scroll">
-        <ul class="list-favourites text-center">
-          <li>
-            <img src="img/kitten.jpg" alt="gatito" onmouseover="this.src='img/kitten2.jpg'" onmouseout="this.src='img/kitten.jpg'"/>
-            <p class="text-center">Gatitos</p>
-          </li><li>
-            <img  src="img/cupcake.jpg" alt="cupcake" onmouseover="this.src='img/cupcake2.jpg'" onmouseout="this.src='img/cupcake.jpg'">
-            <p class="text-center">Repostería</p>
-          </li><li>
-            <img src="img/kira.jpg" alt="death note" onmouseover="this.src='img/L.jpg'" onmouseout="this.src='img/kira.jpg'">
-            <p class="text-center">Anime</p>
-          </li><li>
-            <img src="img/poseidon.png" alt="mitologia" onmouseover="this.src='img/hades.png'" onmouseout="this.src='img/poseidon.png'"/>
-            <p class="text-center">Mitología Griega</p>
-          </li><li>
-            <img src="img/murakami.jpg" alt="murakami" onmouseover="this.src='img/murakami2.jpg'" onmouseout="this.src='img/murakami.jpg'"/>
-            <p class="text-center">Haruki Murakami</p>
-          </li><li>
-            <img src="img/cotrina.jpg" alt="cotrina" onmouseover="this.src='img/cotrina2.jpg'" onmouseout="this.src='img/cotrina.jpg'"/>
-            <p class="text-center">José Antonio Cotrina</p>
-          </li><li>
-            <img src="img/mazerunner.jpg" alt="dashner" onmouseover="this.src='img/mazerunner2.jpg'" onmouseout="this.src='img/mazerunner.jpg'"/>
-            <p class="text-center">James Dashner</p>
-          </li>
-        </ul>
-      </div><!--end fovourites-scroll-->
-  </div><!--end favourite-->
-
-  <!--   CONTACTOS   -->
-  <div class="contacto text-center">
+  <!--======CONTACTOS=====-->
+  <div id="contacto" class="text-center">
     <h3 class="text-center">Contact</h3>
 
     <div class="social-section text-center">
@@ -123,7 +124,7 @@
     </div><!--End Social-section-->
   </div><!--End Contacto-->
   
-  <!--=====SCRIPT=======-->
+  <!--=====SCRIPT GOOGLE ANALYTICS=======-->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

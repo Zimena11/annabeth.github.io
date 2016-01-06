@@ -1,0 +1,25 @@
+#contacto{
+  height: auto;
+  border: 1px solid #ddd;
+  background: url(../img/tile2.png) center center;
+  padding-top: 50px;
+}
+.social-section{
+  padding: 0 150px;
+  /*height: 240px;
+  overflow-y: scroll; scroll vertical*/
+}
+.list-contact{
+  margin-top: 25px;
+}
+.list-contact li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px 20px;
+  width: 33%;
+}
+.list-contact img{
+  height: auto;
+  border-radius: 100%;
+  max-width: 50%;
+}

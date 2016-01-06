@@ -1,0 +1,43 @@
+.header{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.list-nav{
+  text-align: center;
+}
+.list-nav li{
+  display: inline-block;
+}
+.list-nav a {
+  display: block;
+  padding: 5px 20px;
+  color: #555;
+  font-family: "Oswald",Arial,sans-serif;
+  transition: all .5s;
+}
+.list-nav a:hover{
+  text-decoration: none;
+  background:#BCBCBC;
+  transform: scale(1.2);
+}
+
+.header-content{
+  color: #FFF;
+
+  text-align: center;
+  background: url('../img/hero3.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+ -o-background-size: cover;
+  background-size: cover;
+
+}
+.opacity-bg{
+    padding: 150px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-content h1{
+  color: #e6dede;
+  text-shadow: 4px 6px 6px #1f0a0a;
+}
