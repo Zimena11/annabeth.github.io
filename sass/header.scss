@@ -1,12 +1,16 @@
 .header{
   padding-bottom: 0;
   margin-bottom: 0;
+  padding-top: 0;
 }
 .list-nav{
   text-align: center;
 }
 .list-nav li{
   display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    transition: all 1s;
 }
 .list-nav a {
   display: block;
@@ -16,12 +20,15 @@
   font-weight: 900;
   transition: all .5s;
 }
-.list-nav a:hover{
-  text-decoration: none;
-  background:#BCBCBC;
-  transform: scale(1.2);
-}
+.list-nav li:hover {
+    background:url(../img/book2.fw.png) center top;
+    background-size: cover;
+    border-radius: 4px;
 
+}
+.list-nav li:hover a{
+    color: #fff;
+}
 .header-content{
   color: #FFF;
 

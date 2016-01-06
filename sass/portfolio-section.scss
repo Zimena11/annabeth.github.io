@@ -1,11 +1,19 @@
-.list-portfolio{
-    position: relative;
-    height: 200px;
-    width: 800px;
+.slider{
+    width: 650px;
+    height: 300px;
     overflow: hidden;
+    margin: 20px auto;
 }
-.list-portfolio li {
-    position: absolute;
-
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    color:#e6dede !important;
+    text-align: center;
+    transition: all 1s;
+    height: 200px;
+    width: 100%;
 }
 
+.item a:hover .carousel-caption{
+    opacity: 1;
+}
