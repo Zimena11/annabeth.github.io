@@ -7,13 +7,17 @@
 .carousel-caption{
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
-    color:#e6dede !important;
     text-align: center;
     transition: all 1s;
-    height: 200px;
+    height: 300px;
     width: 100%;
+    margin-left: -130px;
+    bottom: 0;
+    padding-bottom: 0;
 }
-
+.carousel-caption h4, .carousel-caption p{
+     color:#e6dede !important;
+}
 .item a:hover .carousel-caption{
     opacity: 1;
 }

@@ -25,15 +25,14 @@ body{
 }
 
 h1,h2,h3,h4{
-  color:#a9268d;
+  color:#e6dede;
+  background: url();
   font-family: 'Libre Baskerville', serif;
 }
 
 img{
   max-width: 100%;
   vertical-align: top;
-  /*object-fit: contain;
-  overflow: hidden;*/
   transition: all 1s;
 }
 ul li{
@@ -56,43 +55,19 @@ a,a:hover{
   background: url(../img/tile1.png);
   padding: 20px 0;
 }
-/*****Favourites*****/
-.favourite{
-  padding: 50px 0;
-  background: url(../img/background1.jpg) center;
-  background-size: cover;
-}
-.list-favourites{
-  margin: 30px auto 0;
-}
-.list-favourites li{
-  list-style: none;
-  display: inline-block;
-  padding: 0 20px 25px;
-  width: 25%;
-}
-.list-favourites img{
-  border-radius: 100%;
-  border: 1px solid #CCC;
-  padding: 5px;
-    height: auto;
-    max-width: 80%;
-}
-.list-favourites p{
-  margin-top: 15px;
-  color: white;
-  font-size: 18px;
-  font-family: Garamond, serif;
-  font-weight: bold;
-}/*
-.favourite-scroll{
-  height: 350px;
-  overflow-y: scroll; }scroll vertical*/
+
 /******Portfolio*******/
 @import 'portfolio-section';
 
 
 /***Portfolio Detail***/
 @import 'portfolio-detail';
+
 /*****Contacto*****/
 @import 'contacto';
+
+/****Footer******/
+.footer{
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+}

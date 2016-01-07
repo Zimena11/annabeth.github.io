@@ -1,16 +1,18 @@
 #contacto{
   height: auto;
   border: 1px solid #ddd;
-  background: url(../img/tile2.png) center center;
-  padding-top: 50px;
+  background: url(../img/bg-social.jpg) no-repeat;
+  background-size: cover;
 }
 .social-section{
-  padding: 0 150px;
-  /*height: 240px;
-  overflow-y: scroll; scroll vertical*/
+
+  padding: 50px 150px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+
 }
 .list-contact{
   margin-top: 25px;
+    margin-bottom: 0;
 }
 .list-contact li{
   list-style: none;
