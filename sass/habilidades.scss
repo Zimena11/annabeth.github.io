@@ -1,0 +1,28 @@
+#habilidades{
+    margin:30px 0;
+}
+.habilidades-bg{
+    background: url(../img/bg-2.fw.png) repeat-x;
+          -webkit-background-size: cover;
+      -moz-background-size: cover;
+     -o-background-size: cover;
+      background-size: cover;
+
+    padding: 150px 0;
+}
+.list-habilidades i{
+    font-size: 40px;
+    height:80px;
+    width: 80px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #e6dede;
+    border-radius: 100%;
+    padding: 10px;
+    vertical-align: middle;
+    transition: all 1s;
+}
+.list-habilidades i:hover{
+
+}

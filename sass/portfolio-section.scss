@@ -5,7 +5,7 @@
     margin: 20px auto;
 }
 .carousel-caption{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
     text-align: center;
     transition: all 1s;
@@ -13,7 +13,13 @@
     width: 100%;
     margin-left: -150px;
     bottom: 0;
+    font-size: 14px;
+    padding-top: 200px;
     padding-bottom: 0;
+}
+.carousel-caption h4{
+    text-transform: uppercase;
+    font-size: 18px;
 }
 .carousel-caption h4, .carousel-caption p{
      color:#e6dede !important;

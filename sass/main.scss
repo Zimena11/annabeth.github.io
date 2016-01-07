@@ -48,6 +48,9 @@ a,a:hover{
     text-decoration: none;
     color: inherit;
 }
+.opacity-bg{
+    background-color: rgba(0, 0, 0, 0.6);
+}
 /*****Header******/
 @import 'header';
 
@@ -62,12 +65,11 @@ a,a:hover{
   padding: 20px 0;
 }
 
+/***Habilidades***/
+@import 'habilidades';
+
 /******Portfolio*******/
 @import 'portfolio-section';
-
-
-/***Portfolio Detail***/
-@import 'portfolio-detail';
 
 /*****Contacto*****/
 @import 'contacto';

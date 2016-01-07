@@ -38,6 +38,9 @@ a, a:hover {
   text-decoration: none;
   color: inherit; }
 
+.opacity-bg {
+  background-color: rgba(0, 0, 0, 0.6); }
+
 /*****Header******/
 .header {
   padding-bottom: 0;
@@ -78,9 +81,8 @@ a, a:hover {
   -o-background-size: cover;
   background-size: cover; }
 
-.opacity-bg {
-  padding: 150px 0;
-  background-color: rgba(0, 0, 0, 0.6); }
+.header-bg {
+  padding: 150px 0; }
 
 .header-content h1 {
   color: #e6dede;
@@ -96,6 +98,31 @@ a, a:hover {
   background: url(../img/tile1.png);
   padding: 20px 0; }
 
+/***Habilidades***/
+#habilidades {
+  margin: 30px 0; }
+
+.habilidades-bg {
+  background: url(../img/bg-2.fw.png) repeat-x;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 150px 0; }
+
+.list-habilidades i {
+  font-size: 40px;
+  height: 80px;
+  width: 80px;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #e6dede;
+  border-radius: 100%;
+  padding: 10px;
+  vertical-align: middle;
+  transition: all 1s; }
+
 /******Portfolio*******/
 .slider {
   width: 750px;
@@ -104,7 +131,7 @@ a, a:hover {
   margin: 20px auto; }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   opacity: 0;
   text-align: center;
   transition: all 1s;
@@ -112,7 +139,13 @@ a, a:hover {
   width: 100%;
   margin-left: -150px;
   bottom: 0;
+  font-size: 14px;
+  padding-top: 200px;
   padding-bottom: 0; }
+
+.carousel-caption h4 {
+  text-transform: uppercase;
+  font-size: 18px; }
 
 .carousel-caption h4, .carousel-caption p {
   color: #e6dede !important; }
@@ -123,7 +156,6 @@ a, a:hover {
 .item img {
   width: 100%; }
 
-/***Portfolio Detail***/
 /*****Contacto*****/
 #contact {
   height: auto; }
@@ -133,8 +165,7 @@ a, a:hover {
   background-size: cover; }
 
 .social-section {
-  padding: 50px 100px;
-  background-color: rgba(0, 0, 0, 0.6); }
+  padding: 50px 100px; }
 
 .list-contact {
   margin-top: 25px;
@@ -143,7 +174,7 @@ a, a:hover {
 .list-contact li {
   list-style: none;
   padding: 0 20px 20px;
-  width: 60%; }
+  width: 100%; }
 
 .list-contact i, .e-mail i {
   font-size: 30px;
