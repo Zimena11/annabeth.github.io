@@ -26,8 +26,14 @@ body{
 
 h1,h2,h3,h4{
   color:#e6dede;
-  background: url();
   font-family: 'Libre Baskerville', serif;
+}
+h3{
+    background: url(../img/label.png) repeat-x;
+    padding: 20px 0;
+    width: 200px;
+    margin: 20px auto;
+    text-transform: uppercase;
 }
 
 img{
@@ -68,6 +74,7 @@ a,a:hover{
 
 /****Footer******/
 .footer{
-    background: rgba(0,0,0,0.6);
+    background: #171111;
     padding: 20px;
+    color: #e6dede;
 }

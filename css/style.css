@@ -16,14 +16,19 @@ body {
   font-size: 13px; }
 
 h1, h2, h3, h4 {
-  color: #a9268d;
+  color: #e6dede;
   font-family: 'Libre Baskerville', serif; }
+
+h3 {
+  background: url(../img/label.png) repeat-x;
+  padding: 20px 0;
+  width: 200px;
+  margin: 20px auto;
+  text-transform: uppercase; }
 
 img {
   max-width: 100%;
   vertical-align: top;
-  /*object-fit: contain;
-  overflow: hidden;*/
   transition: all 1s; }
 
 ul li {
@@ -67,7 +72,7 @@ a, a:hover {
 .header-content {
   color: #FFF;
   text-align: center;
-  background: url("../img/hero3.jpg") center center no-repeat;
+  background: url("../img/hero2.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -91,83 +96,96 @@ a, a:hover {
   background: url(../img/tile1.png);
   padding: 20px 0; }
 
-/*****Favourites*****/
-.favourite {
-  padding: 50px 0;
-  background: url(../img/background1.jpg) center;
-  background-size: cover; }
-
-.list-favourites {
-  margin: 30px auto 0; }
-
-.list-favourites li {
-  list-style: none;
-  display: inline-block;
-  padding: 0 20px 25px;
-  width: 25%; }
-
-.list-favourites img {
-  border-radius: 100%;
-  border: 1px solid #CCC;
-  padding: 5px;
-  height: auto;
-  max-width: 80%; }
-
-.list-favourites p {
-  margin-top: 15px;
-  color: white;
-  font-size: 18px;
-  font-family: Garamond, serif;
-  font-weight: bold; }
-
- /*
-.favourite-scroll{
-  height: 350px;
-  overflow-y: scroll; }scroll vertical*/
 /******Portfolio*******/
 .slider {
-  width: 650px;
-  height: 300px;
+  width: 750px;
+  height: 400px;
   overflow: hidden;
   margin: 20px auto; }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.3);
   opacity: 0;
-  color: #e6dede !important;
   text-align: center;
   transition: all 1s;
-  height: 200px;
-  width: 100%; }
+  height: 400px;
+  width: 100%;
+  margin-left: -150px;
+  bottom: 0;
+  padding-bottom: 0; }
+
+.carousel-caption h4, .carousel-caption p {
+  color: #e6dede !important; }
 
 .item a:hover .carousel-caption {
   opacity: 1; }
 
+.item img {
+  width: 100%; }
+
 /***Portfolio Detail***/
 /*****Contacto*****/
-#contacto {
-  height: auto;
-  border: 1px solid #ddd;
-  background: url(../img/tile2.png) center center;
-  padding-top: 50px; }
+#contact {
+  height: auto; }
+
+.contacto-bg {
+  background: url(../img/bg-social.jpg) no-repeat center 50%;
+  background-size: cover; }
 
 .social-section {
-  padding: 0 150px;
-  /*height: 240px;
-  overflow-y: scroll; scroll vertical*/ }
+  padding: 50px 100px;
+  background-color: rgba(0, 0, 0, 0.6); }
 
 .list-contact {
-  margin-top: 25px; }
+  margin-top: 25px;
+  margin-bottom: 0; }
 
 .list-contact li {
   list-style: none;
-  display: inline-block;
   padding: 0 20px 20px;
-  width: 33%; }
+  width: 60%; }
 
-.list-contact img {
-  height: auto;
+.list-contact i, .e-mail i {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #e6dede;
   border-radius: 100%;
-  max-width: 50%; }
+  padding: 10px;
+  vertical-align: middle;
+  transition: all 1s; }
+
+.list-contact i:hover {
+  border-radius: 10px;
+  background: #ccc;
+  color: #272424; }
+
+.list-contact .media-body {
+  width: 300px;
+  text-align: left; }
+
+.media-heading {
+  font-size: 20px;
+  color: beige; }
+
+.media-body p {
+  font-size: 16px;
+  color: azure; }
+
+.e-mail {
+  padding: 100px 0;
+  text-align: left; }
+
+.e-mail i {
+  border-radius: 10px; }
+
+/****Footer******/
+.footer {
+  background: #171111;
+  padding: 20px;
+  color: #e6dede; }
 
 /*# sourceMappingURL=style.css.map */
