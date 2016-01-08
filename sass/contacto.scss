@@ -1,14 +1,12 @@
-#contacto{
+#contact{
   height: auto;
-  border: 1px solid #ddd;
-  background: url(../img/bg-social.jpg) no-repeat;
+}
+.contacto-bg{
+  background: url(../img/bg-social.jpg) no-repeat center 50%;
   background-size: cover;
 }
 .social-section{
-
-  padding: 50px 150px 0;
-  background-color: rgba(0, 0, 0, 0.6);
-
+  padding: 50px 100px;
 }
 .list-contact{
   margin-top: 25px;
@@ -16,12 +14,43 @@
 }
 .list-contact li{
   list-style: none;
-  display: inline-block;
   padding: 0 20px 20px;
-  width: 33%;
+  width: 100%;
 }
-.list-contact img{
-  height: auto;
-  border-radius: 100%;
-  max-width: 50%;
+.list-contact i, .e-mail i{
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #e6dede;
+    border-radius: 100%;
+    padding: 10px;
+    vertical-align: middle;
+    transition: all 1s;
+}
+.list-contact i:hover{
+    border-radius: 10px;
+    background: #ccc;
+    color: #272424;
+ }
+.list-contact .media-body{
+    width: 300px;
+    text-align: left;
+}
+.media-heading{
+    font-size: 20px;
+    color: beige;
+}
+.media-body p{
+    font-size: 16px;
+    color: azure;
+}
+.e-mail{
+    padding: 100px 0;
+    text-align: left;
+}
+.e-mail i{
+    border-radius: 10px;
 }

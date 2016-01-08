@@ -1,0 +1,53 @@
+#habilidades{
+    margin:30px 0;
+}
+.habilidades-bg{
+    background: url(../img/bg-2.fw.png) repeat-x;
+          -webkit-background-size: cover;
+      -moz-background-size: cover;
+     -o-background-size: cover;
+      background-size: cover;
+}
+#habilidades .opacity-bg{
+    padding: 150px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.list-habilidades i{
+    font-size: 40px;
+    height:80px;
+    width: 80px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #e6dede;
+    border-radius: 100%;
+    padding: 10px;
+    vertical-align: middle;
+    transition: all 1s;
+}
+.list-habilidades .ion-social-sass , .list-habilidades .ion-social-javascript {
+    padding: 16px 20px;
+}
+.list-habilidades i:hover{
+    border-radius: 10px;
+    background: #444;
+}
+.list-habilidades .fa-html5:hover{
+    color: rgba(241,101,40,0.8);
+}
+.list-habilidades .fa-css3:hover{
+    color: rgba(16,112,188,0.8);
+}
+
+.list-habilidades .fa-drupal:hover{
+    color: rgba(13,113,180,0.8);
+}
+.list-habilidades .fa-git:hover{
+    color: rgba(238,77,49,0.8);
+}
+.list-habilidades .ion-social-sass:hover{
+    color: rgba(207,100,154,0.8);
+}
+.list-habilidades .ion-social-javascript:hover{
+    color: rgba(241,192,137,0.8);
+}

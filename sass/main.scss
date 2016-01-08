@@ -26,8 +26,14 @@ body{
 
 h1,h2,h3,h4{
   color:#e6dede;
-  background: url();
   font-family: 'Libre Baskerville', serif;
+}
+h3{
+    background: url(../img/label.png) repeat-x;
+    padding: 20px 0;
+    width: 200px;
+    margin: 20px auto;
+    text-transform: uppercase;
 }
 
 img{
@@ -42,6 +48,9 @@ a,a:hover{
     text-decoration: none;
     color: inherit;
 }
+.opacity-bg{
+    background-color: rgba(0, 0, 0, 0.6);
+}
 /*****Header******/
 @import 'header';
 
@@ -53,21 +62,39 @@ a,a:hover{
 }
 .about-me{
   background: url(../img/tile1.png);
-  padding: 20px 0;
+  padding: 20px 80px;
 }
+.about me p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/***Habilidades***/
+@import 'habilidades';
 
 /******Portfolio*******/
 @import 'portfolio-section';
-
-
-/***Portfolio Detail***/
-@import 'portfolio-detail';
 
 /*****Contacto*****/
 @import 'contacto';
 
 /****Footer******/
 .footer{
-    background: rgba(0,0,0,0.6);
+    background: #171111;
     padding: 20px;
+    color: #e6dede;
+}
+
+/*estilos boton arriba*/
+.ir-arriba {
+	display:none;
+	padding:10px 20px;
+	background:#2D323A;
+	font-size:24px;
+    border-radius: 4px;
+	color:#E8EDEF;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
 }
