@@ -17,8 +17,14 @@ body {
 
 h1, h2, h3, h4 {
   color: #e6dede;
-  background: url();
   font-family: 'Libre Baskerville', serif; }
+
+h3 {
+  background: url(../img/label.png) repeat-x;
+  padding: 20px 0;
+  width: 200px;
+  margin: 20px auto;
+  text-transform: uppercase; }
 
 img {
   max-width: 100%;
@@ -31,6 +37,9 @@ ul li {
 a, a:hover {
   text-decoration: none;
   color: inherit; }
+
+.opacity-bg {
+  background-color: rgba(0, 0, 0, 0.6); }
 
 /*****Header******/
 .header {
@@ -66,15 +75,14 @@ a, a:hover {
 .header-content {
   color: #FFF;
   text-align: center;
-  background: url("../img/hero3.jpg") center center no-repeat;
+  background: url("../img/hero2.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.opacity-bg {
-  padding: 150px 0;
-  background-color: rgba(0, 0, 0, 0.6); }
+.header-bg {
+  padding: 150px 0; }
 
 .header-content h1 {
   color: #e6dede;
@@ -88,12 +96,69 @@ a, a:hover {
 
 .about-me {
   background: url(../img/tile1.png);
-  padding: 20px 0; }
+  padding: 20px 80px; }
+
+.about me p {
+  font-size: 20px;
+  line-height: 1.5; }
+
+/***Habilidades***/
+#habilidades {
+  margin: 30px 0; }
+
+.habilidades-bg {
+  background: url(../img/bg-2.fw.png) repeat-x;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#habilidades .opacity-bg {
+  padding: 150px 0;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.list-habilidades i {
+  font-size: 40px;
+  height: 80px;
+  width: 80px;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #e6dede;
+  border-radius: 100%;
+  padding: 10px;
+  vertical-align: middle;
+  transition: all 1s; }
+
+.list-habilidades .ion-social-sass, .list-habilidades .ion-social-javascript {
+  padding: 16px 20px; }
+
+.list-habilidades i:hover {
+  border-radius: 10px;
+  background: #444; }
+
+.list-habilidades .fa-html5:hover {
+  color: rgba(241, 101, 40, 0.8); }
+
+.list-habilidades .fa-css3:hover {
+  color: rgba(16, 112, 188, 0.8); }
+
+.list-habilidades .fa-drupal:hover {
+  color: rgba(13, 113, 180, 0.8); }
+
+.list-habilidades .fa-git:hover {
+  color: rgba(238, 77, 49, 0.8); }
+
+.list-habilidades .ion-social-sass:hover {
+  color: rgba(207, 100, 154, 0.8); }
+
+.list-habilidades .ion-social-javascript:hover {
+  color: rgba(241, 192, 137, 0.8); }
 
 /******Portfolio*******/
 .slider {
-  width: 650px;
-  height: 300px;
+  width: 750px;
+  height: 400px;
   overflow: hidden;
   margin: 20px auto; }
 
@@ -102,11 +167,17 @@ a, a:hover {
   opacity: 0;
   text-align: center;
   transition: all 1s;
-  height: 300px;
+  height: 400px;
   width: 100%;
-  margin-left: -130px;
+  margin-left: -150px;
   bottom: 0;
+  font-size: 14px;
+  padding-top: 200px;
   padding-bottom: 0; }
+
+.carousel-caption h4 {
+  text-transform: uppercase;
+  font-size: 18px; }
 
 .carousel-caption h4, .carousel-caption p {
   color: #e6dede !important; }
@@ -114,17 +185,19 @@ a, a:hover {
 .item a:hover .carousel-caption {
   opacity: 1; }
 
-/***Portfolio Detail***/
+.item img {
+  width: 100%; }
+
 /*****Contacto*****/
-#contacto {
-  height: auto;
-  border: 1px solid #ddd;
-  background: url(../img/bg-social.jpg) no-repeat;
+#contact {
+  height: auto; }
+
+.contacto-bg {
+  background: url(../img/bg-social.jpg) no-repeat center 50%;
   background-size: cover; }
 
 .social-section {
-  padding: 50px 150px 0;
-  background-color: rgba(0, 0, 0, 0.6); }
+  padding: 50px 100px; }
 
 .list-contact {
   margin-top: 25px;
@@ -132,18 +205,63 @@ a, a:hover {
 
 .list-contact li {
   list-style: none;
-  display: inline-block;
   padding: 0 20px 20px;
-  width: 33%; }
+  width: 100%; }
 
-.list-contact img {
-  height: auto;
+.list-contact i, .e-mail i {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #e6dede;
   border-radius: 100%;
-  max-width: 50%; }
+  padding: 10px;
+  vertical-align: middle;
+  transition: all 1s; }
+
+.list-contact i:hover {
+  border-radius: 10px;
+  background: #ccc;
+  color: #272424; }
+
+.list-contact .media-body {
+  width: 300px;
+  text-align: left; }
+
+.media-heading {
+  font-size: 20px;
+  color: beige; }
+
+.media-body p {
+  font-size: 16px;
+  color: azure; }
+
+.e-mail {
+  padding: 100px 0;
+  text-align: left; }
+
+.e-mail i {
+  border-radius: 10px; }
 
 /****Footer******/
 .footer {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 20px; }
+  background: #171111;
+  padding: 20px;
+  color: #e6dede; }
+
+/*estilos boton arriba*/
+.ir-arriba {
+  display: none;
+  padding: 10px 20px;
+  background: #2D323A;
+  font-size: 24px;
+  border-radius: 4px;
+  color: #E8EDEF;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px; }
 
 /*# sourceMappingURL=style.css.map */
