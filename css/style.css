@@ -16,14 +16,13 @@ body {
   font-size: 13px; }
 
 h1, h2, h3, h4 {
-  color: #a9268d;
+  color: #e6dede;
+  background: url();
   font-family: 'Libre Baskerville', serif; }
 
 img {
   max-width: 100%;
   vertical-align: top;
-  /*object-fit: contain;
-  overflow: hidden;*/
   transition: all 1s; }
 
 ul li {
@@ -91,39 +90,6 @@ a, a:hover {
   background: url(../img/tile1.png);
   padding: 20px 0; }
 
-/*****Favourites*****/
-.favourite {
-  padding: 50px 0;
-  background: url(../img/background1.jpg) center;
-  background-size: cover; }
-
-.list-favourites {
-  margin: 30px auto 0; }
-
-.list-favourites li {
-  list-style: none;
-  display: inline-block;
-  padding: 0 20px 25px;
-  width: 25%; }
-
-.list-favourites img {
-  border-radius: 100%;
-  border: 1px solid #CCC;
-  padding: 5px;
-  height: auto;
-  max-width: 80%; }
-
-.list-favourites p {
-  margin-top: 15px;
-  color: white;
-  font-size: 18px;
-  font-family: Garamond, serif;
-  font-weight: bold; }
-
- /*
-.favourite-scroll{
-  height: 350px;
-  overflow-y: scroll; }scroll vertical*/
 /******Portfolio*******/
 .slider {
   width: 650px;
@@ -134,11 +100,16 @@ a, a:hover {
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 0;
-  color: #e6dede !important;
   text-align: center;
   transition: all 1s;
-  height: 200px;
-  width: 100%; }
+  height: 300px;
+  width: 100%;
+  margin-left: -130px;
+  bottom: 0;
+  padding-bottom: 0; }
+
+.carousel-caption h4, .carousel-caption p {
+  color: #e6dede !important; }
 
 .item a:hover .carousel-caption {
   opacity: 1; }
@@ -148,16 +119,16 @@ a, a:hover {
 #contacto {
   height: auto;
   border: 1px solid #ddd;
-  background: url(../img/tile2.png) center center;
-  padding-top: 50px; }
+  background: url(../img/bg-social.jpg) no-repeat;
+  background-size: cover; }
 
 .social-section {
-  padding: 0 150px;
-  /*height: 240px;
-  overflow-y: scroll; scroll vertical*/ }
+  padding: 50px 150px 0;
+  background-color: rgba(0, 0, 0, 0.6); }
 
 .list-contact {
-  margin-top: 25px; }
+  margin-top: 25px;
+  margin-bottom: 0; }
 
 .list-contact li {
   list-style: none;
@@ -169,5 +140,10 @@ a, a:hover {
   height: auto;
   border-radius: 100%;
   max-width: 50%; }
+
+/****Footer******/
+.footer {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */
